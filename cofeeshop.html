@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <div class="navbar">
+         <div id="bar" onclick="bar()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        <div class="logo">
+           <img src="image/imag1.png">
+        </div>
+
+        <nav id="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#OURMENU">Menu</a></li>
+                <li><a href="#OURPRODUCTS">Products</a></li>
+                <li><a href="#CUSTOMERSREVIEW">Review</a></li>
+                <li><a href="#CONTACTUS">Contact</a></li>
+                <li><a href="#OURBLOGS">Blogs</a></li>
+            </ul>
+      
+        </nav>
+              <div id="sign" class ="sign-in">
+                <i onclick="user()" id="user" class="fa-solid fa-user"></i>
+                <i id="shop" class="fa-solid fa-cart-shopping"></i>
+               <i id="moon" class="fa-solid fa-moon"></i>
+               
+            </div>
+    </div>
+            
+
+
+
+    <div class="hero">
+        <div class="hero-content">
+            <p id="big">FRESH COFFEE IN <br>THE MORNING</p>
+            <p id="small">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+                 Dolorum, pariatur cum aperiam atque quia et. Ratione dolor, .</p>
+        <button class="btn">Get it Now</button>
+     </div>
+      
+     <div class="box">
+    
+        <div class="content">
+              <div onclick="close()" id="close">
+            &times
+        </div>
+        <h2>Sign in</h2>
+         <form onsubmit="return validate()">
+        <input id="name" type="text" name="name" placeholder="Enter your name">
+        <br>
+        <br>
+        <span id="msg1"></span>
+        <br>
+        <input id="pass" type="password" name="pwd" placeholder="Enter your Password">
+        <br>
+        <br>
+            <span id="msg2"></span>
+        <br>
+        <input id="phone" type="phone" name="phone" placeholder="Enter your phone">
+        <br>
+        <br>
+            <span id="msg3"></span>
+        <br>
+        <input id="email" type="email" name="email" placeholder="Enter your Email">
+        <br>
+        <br>
+            <span id="msg4"></span>
+        <br>
+        <button id="btn1">Save</button>
+        </form>
+</div>
+     </div>
+
+    
+    <div class="image">
+        <img src="image/image2.png">
+    </div>
+      </div>
+ <span id="About"></span>
+           <h1>ABOUT<span>US</span></h1>
+           
+      <section class="section">
+             <img src="image/image3.jpg">
+
+                <div class="section1">
+                <p id="text">What Makes Our Coffee Special?</p>
+                <p id="text1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id reprehenderit quam voluptatem voluptates at repudiandae fuga blanditiis illo eaque obcaecati deserunt culpa, accusamus possimus impedit voluptas, ut distinctio fugiat veritatis.</p>
+            <p id="text1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo voluptas non harum possimus blanditiis sit provident cumque neque placeat officia?</p>
+
+            </div>
+      </section>
+
+<span id="OURMENU"></span>
+      <h1>OUR<span>MENU</span></h1>
+      <div class ="section2">
+        <div class="cards">
+            <div class="card-1">
+                <img src="image/imag-4.png">
+                <p id="parag">Tasty And Healthy</p>
+                <p id="num">$15.99</p>
+                <a onclick="card()" class="card">Add To Cart</a>
+            </div>
+
+              <div class="card-2">
+                <img src="image/imag-5.jpg">
+                <p id="parag">Tasty And Healthy</p>
+                <p  id="num">$15.99</p>
+                <a  onclick="card()" class="card">Add To Cart</a>
+            </div>
+
+              <div class="card-3">
+                <img src="image/imag-6.jpg">
+                <p id="parag">Tasty And Healthy</p>
+                <p  id="num">$15.99</p>
+                <a  onclick="card()" class="card">Add To Cart</a>
+            </div>
+
+              <div class="card-4">
+                <img src="image/imag-7.jpg">
+                <p id="parag">Tasty And Healthy</p>
+                <p  id="num">$15.99</p>
+                <a onclick="card()" class="card">Add To Cart</a>
+            </div>
+
+              <div class="card-5">
+                <img src="image/imag-8.jpg">
+                <p id="parag">Tasty And Healthy</p>
+                <p  id="num">$15.99</p>
+                <a  onclick="card()" class="card">Add To Cart</a>
+            </div>
+
+              <div class="card-6">
+                <img src="image/imag-9.jpg">
+                <p id="parag">Tasty And Healthy</p>
+                <p  id="num">$15.99</p>
+                <a onclick="card()" class="card">Add To Cart</a>
+            </div>
+        </div>
+      </div>
+
+
+
+      <span id="OURPRODUCTS"></span>
+      <h1>OUR<span>PRODUCTS</span></h1>
+
+      <div class="section3">
+        <div class="products">
+            <div class="product1">
+                <div class="corse">
+                    <i id="shopss" class="fa-solid fa-cart-shopping"></i>
+                     <i onclick="heart" id="heart" class="fa-solid fa-heart"></i>
+                     <i id="eye" class="fa-regular fa-eye"></i>
+                </div>
+                
+                <div class="produimage">
+                    <img src="image/imag-10.png">
+                </div>
+                <p id="fresh">Fresh Coffee</p>
+                <div class="star">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p  id="num">$15.99</p>
+            </div>
+
+                <div class="product2">
+               <div class="corse">
+                    <i id="shopss" class="fa-solid fa-cart-shopping"></i>
+                     <i onclick="heart()" id="heart" class="fa-solid fa-heart"></i>
+                     <i id="eye" class="fa-regular fa-eye"></i>
+                </div>
+                <div class="produimage">
+                    <img src="image/imag-11.png">
+                </div>
+                <p id="fresh">Fresh Coffee</p>
+                <div class="star">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p  id="num">$15.99</p>
+            </div>
+
+                <div class="product3">
+              <div class="corse">
+                    <i id="shopss" class="fa-solid fa-cart-shopping"></i>
+                <i onclick="heart()" id="heart" class="fa-solid fa-heart"></i>
+                     <i id="eye" class="fa-regular fa-eye"></i>
+                </div>
+                <div class="produimage">
+                    <img src="image/imag-12.png">
+                </div>
+                <p id="fresh">Fresh Coffee</p>
+                <div class="star">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p  id="num">$15.99</p>
+            </div>
+        </div>
+      </div>
+
+
+ <span id="CUSTOMERSREVIEW"></span>
+      <h1>CUSTOMER'S'<span>REVIEW</span></h1>
+
+      <div class="section4">
+        <div class="section5">
+            <div class="customer1">
+        <div class="quote">
+            <i class="fa-solid fa-quote-left"></i>
+        </div>
+       <div class="quote-para">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto commodi quod iure iste officiis repellendus consequatur molestiae ducimus vitae natus!</p>
+       </div>
+         <div class="image-customer">
+            <img src="image/imag-13.png">
+         </div>
+         <p class="h1-para">Muhammadi</p>
+          <div class="star">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+
+                </div>
+
+                <div class="customer2">
+                  <div class="quote">
+            <i class="fa-solid fa-quote-left"></i>
+        </div>
+           <div class="quote-para">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto commodi quod iure iste officiis repellendus consequatur molestiae ducimus vitae natus!</p>
+       </div>
+
+         <div class="image-customer">
+            <img src="image/imag-14.png">
+         </div>
+         <p class="h1-para">Ahadi</p>
+          <div class="star">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+</div>
+
+            <div class="customer3">
+                  <div class="quote">
+            <i class="fa-solid fa-quote-left"></i>
+        </div>
+        
+             <div class="quote-para">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto commodi quod iure iste officiis repellendus consequatur molestiae ducimus vitae natus!</p>
+       </div>
+         <div class="image-customer">
+            <img src="image/imag-15.png">
+         </div>
+         <p class="h1-para">Karimi</p>
+          <div class="star">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                </div>
+      </div>
+      </div>
+       
+
+      <span id="CONTACTUS"></span>
+      <h1>Contact<span>US</span></h1>
+        <div class="contactus">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque mollitia commodi quod placeat ea? Quasi<br> perspiciatis, velit, omnis debitis ipsa in vero itaque officiis voluptatum quia repellat voluptatem. Ut, at.</p>
+        </div>
+    
+
+        <div class="contact">
+            <div class="contact-1">
+                <div class="contact-2">
+                <i id="address"class="fa-solid fa-address-book"></i>
+                <p id="add-p">Address</p>
+                <p class="kabul">kabul gull bagh</p>
+                <i  id="phone" class="fa-solid fa-phone"></i>
+                 <p  id="add-p">Phone</p>
+                 <p class="kabul">0791204605</p>
+
+               <i  id="email" class="fa-regular fa-envelope"></i>
+               <p  id="add-p">Email</p>
+               <p class="kabul-email">madinamuhammdi@gmail.com</p>
+            </div>
+
+               <div class="contact-input">
+                <h1 id="h1-contact">Send Message</h1>
+                <form class="contact-form">
+                    <input type="name" name="name" placeholder="Full Name">
+                    <br>
+                    <input  type="email" name="email" placeholder="Email">
+                    <br>
+                    <input type="message" name="message" placeholder="Type your Message">
+                     <button class="btn-contact">Send</button>
+                </form>
+               </div>
+            </div>
+        </div>
+
+         <span id="OURBLOGS"></span>
+      <h1>OUR<span>BLOGS</span></h1>
+
+        <div class="blog-1">
+            <div class="blogs">
+                <div class="blog">
+                    <img id="imageadmin" src="image/imag-18.png">
+                    <p id="admin-p">Tasty And Refreshing Coffee</p>
+                    <p id="admin-data">By Admin/ 1st,oct,2026</p>
+                    <p id="admin-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, minima? Voluptatem sequi similique et blanditiis deserunt? Cupiditate sunt exercitationem aut.<p class="blognone">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod dolor aliquam voluptatem natus repudiandae ipsa iure autem rem veniam nihil?</p>
+                    </p>
+                    </p>
+                    <button class="blogbtn" id="a-admin">Read More</button>
+                </div>
+
+                 <div class="blog">
+                    <img id="adminb" src="image/imag-20.png">
+                    <p id="admin-p">Tasty And Refreshing Coffee</p>
+                    <p id="admin-data">By Admin/ 1st,oct,2026</p>
+                    <p id="admin-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, minima? Voluptatem sequi similique et blanditiis deserunt? Cupiditate sunt exercitationem aut.<p class="blognone">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod dolor aliquam voluptatem natus repudiandae ipsa iure autem rem veniam nihil?</p>
+                    </p>
+                    <button  class="blogbtn" id="a-admin">Read More</button>
+                </div>
+
+                 <div class="blog">
+                    <img id="imagepng" src="image/imag-19.png">
+                    <p id="admin-p">Tasty And Refreshing Coffee</p>
+                    <p  id="admin-data">By Admin/ 1st,oct,2026</p>
+                    <p id="admin-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, minima? Voluptatem sequi similique et blanditiis deserunt? Cupiditate sunt exercitationem aut.<p class="blognone">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod dolor aliquam voluptatem natus repudiandae ipsa iure autem rem veniam nihil?</p>
+                    </p>
+                    </p>
+                    <button  class="blogbtn" id="a-admin">Read More</button>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="footer-icon">
+                <a href="https://facebook.com"><i id="footer-face" class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://instagram.com"><i id="footer-insta" class="fa-brands fa-instagram"></i></a>
+                <a href="https://messanger.com"><i id="footer-mess" class="fa-brands fa-facebook-messenger"></i></a>
+                <a href="https://linkdin.com"><i id="footer-link" class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://twitter.com"><i id="twitt" class="fa-brands fa-twitter"></i></a>
+                <a href="https://pinterest.com"><i id="pin" class="fa-brands fa-square-pinterest"></i></a>
+
+            </div>
+            <div class="footer-nav">
+                   <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#About">About</a></li>
+                        <li><a href="#OURMENU">Menu</a></li>
+                        <li><a href="#OURPRODUCTS">Products</a></li>
+                        <li><a href="#CUSTOMERSREVIEW">Review</a></li>
+                        <li><a href="#CONTACTUS">Contact</a></li>
+                        <li><a href="#OURBLOGS">blogs</a></li>
+                    </ul>
+                   </nav>
+            </div>
+            <div class="copy">
+                <p>Designed & Developed<span>By Madina</span>|All Rights Reserved</p>
+            </div>
+        </footer>
+
+       
+
+      
+      
+      
+   
+    <script src="java.js"></script>
+</body>
+</html>
